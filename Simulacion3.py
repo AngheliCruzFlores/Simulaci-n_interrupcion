@@ -56,7 +56,6 @@ def division():
     print("Cuarta tarea (divicion) finalizada")
 
 def ejecutar_tareas():
-    global pausa
     thread_res = threading.Thread(target=resta)
     thread_sum = threading.Thread(target=suma)
     thread_mul = threading.Thread(target=multiplicacion)
