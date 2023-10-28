@@ -39,9 +39,6 @@ def multiplicacion():
         res = num2 * num1
         print(f"Multiplicación: {res}")
         time.sleep(0.5)
-        if pausa2.is_set():
-            pausa2.clear()
-            pausa2.wait()
     pausa2.set()
     print("Tercera tarea (multiplicacion) finalizada")
 
